@@ -23,6 +23,8 @@
 		BCE39177188338D5006A7D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE39153188338D5006A7D36 /* UIKit.framework */; };
 		BCE3917F188338D5006A7D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCE3917D188338D5006A7D36 /* InfoPlist.strings */; };
 		BCE39181188338D5006A7D36 /* test_osx_server_ciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE39180188338D5006A7D36 /* test_osx_server_ciTests.m */; };
+		BCE3918C18833D56006A7D36 /* SCWLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3918B18833D56006A7D36 /* SCWLUtility.m */; };
+		BCE3918E18833EA8006A7D36 /* SCWLUtilityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE3918D18833EA8006A7D36 /* SCWLUtilityTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		BCE3917C188338D5006A7D36 /* test-osx-server-ciTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-osx-server-ciTests-Info.plist"; sourceTree = "<group>"; };
 		BCE3917E188338D5006A7D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCE39180188338D5006A7D36 /* test_osx_server_ciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_osx_server_ciTests.m; sourceTree = "<group>"; };
+		BCE3918A18833D56006A7D36 /* SCWLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCWLUtility.h; path = Components/SCWLUtility.h; sourceTree = "<group>"; };
+		BCE3918B18833D56006A7D36 /* SCWLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWLUtility.m; path = Components/SCWLUtility.m; sourceTree = "<group>"; };
+		BCE3918D18833EA8006A7D36 /* SCWLUtilityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCWLUtilityTest.m; path = TestCases/Components/SCWLUtilityTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,9 @@
 				BCE3916B188338D5006A7D36 /* SCWLDetailViewController.m */,
 				BCE3916D188338D5006A7D36 /* Images.xcassets */,
 				BCE39156188338D5006A7D36 /* Supporting Files */,
+				BCE3918A18833D56006A7D36 /* SCWLUtility.h */,
+				BCE3918B18833D56006A7D36 /* SCWLUtility.m */,
+				BCE3918D18833EA8006A7D36 /* SCWLUtilityTest.m */,
 			);
 			path = "test-osx-server-ci";
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 				BCE3915C188338D5006A7D36 /* main.m in Sources */,
 				BCE39160188338D5006A7D36 /* SCWLAppDelegate.m in Sources */,
 				BCE39169188338D5006A7D36 /* SCWLMasterViewController.m in Sources */,
+				BCE3918C18833D56006A7D36 /* SCWLUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE39181188338D5006A7D36 /* test_osx_server_ciTests.m in Sources */,
+				BCE3918E18833EA8006A7D36 /* SCWLUtilityTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +491,7 @@
 				BCE39186188338D5006A7D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE39187188338D5006A7D36 /* Build configuration list for PBXNativeTarget "test-osx-server-ciTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +500,7 @@
 				BCE39189188338D5006A7D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
