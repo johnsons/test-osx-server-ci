@@ -34,7 +34,7 @@
 
 - (void)testIsOdd {
     XCTAssertTrue([SCWLUtility isOdd:1], @"Test isOdd:1 FAIL");
-    XCTAssertFalse([SCWLUtility isOdd:2], @"Test isOdd:2 FAIL");
+    XCTAssertFalse([SCWLUtility isOdd:3], @"Test isOdd:2 FAIL");
 }
 
 @end
